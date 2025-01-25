@@ -1,7 +1,7 @@
 services:
 
   llm: &llm
-    image: ollama/ollama:latest
+    image: ollama/ollama3.2:latest
     profiles: ["linux"]
     networks:
       - net
